@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            gap: 30px;
+            padding: 50px;
+        }
+
+        .card {
+            border: 10px solid #15e4ff;
+            padding: 50px;
+            text-align: center;
+            background-color: #ffffff;
+            box-shadow: 10px 10px 30px rgb(10, 247, 255);
+        }
+        .card-profile {
+            background-color: #c9e4ca;
+        }
+        .card-hobby {
+            background-color: #f7d2c4;
+        }
+        .card-random {
+            background-color: #c5cae9;
+        }
+        .card-contact {
+            background-color: #ffe0b2;
+        }
+
+        img {
+            max-width: 30%;
+            height: auto;
+        }
+        h2 {
+            color: #15ccff;
+        }
+        h3 {
+            color: #333333;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card card-profile">
+            <img src="zio.jpg" alt="Profile Picture">
+            <h2>Hello let me introduce myself!</h2>
+            <p>My Name is Azka Acuzio Raines Respati, You guys can call me Zio</p>
+            <p></p>
+            <p>Sebelum memasuki kedalam website yang aku buat, ada beberapa informasi singkat tentang diriku guys.
+                Jika tidak ingin mengetahui atau melihat informasi tetang diriku,
+                bisa langsung di skip ya!</p>
+        </div>
+        <div class="card card-hobby">
+            <h3>My Hobby</h3>
+            <ul>
+                <li>Suka membaca buku novel, non fiksi, serta buku penambah wawasan
+                    dan pengetahuan tentang budaya dan kehidupan berteknologi di zaman sekarang
+                    hingga zaman yang akan datang.
+                </li>
+                <li>Suka Memasak dan membuat 
+                    makanan atau minuman manis manis
+                </li>
+                <li>Suka belajar coding serta mempraktikannya secara langsung</li>
+                <li>Suka jalan-jalan ke puncak atau pegunungan untuk merileks kan pikiran
+                </li>
+            </ul>
+        </div>
+        <div class="card card-random">
+            <h3>Random Things</h3>
+            <ul>
+                <li>Ya, gak tau ini random</li>
+                <li>Ya, gak tau ini random</li>
+                <li>Ya, gak tau ini random</li>
+                <li>Ya, gak tau ini random</li>
+            </ul>
+        </div>
+        <div class="card card-contact">
+            <h3>If you Guys have Any Questions, call me on bellow!</h3>
+            <ul>
+                <li>Email: zioraines04@gmail.com</li>
+                <li>WhatsApp: +62 858-2624-0188</li>
+                <li>Instagram: @dwnzzy</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
